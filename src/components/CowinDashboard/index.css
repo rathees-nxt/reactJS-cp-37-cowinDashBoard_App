@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  min-height: 100vh;
+  padding: 20px 10px;
+}
+.covin-main-container {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.logo {
+  width: 35px;
+}
+.logo-text {
+  color: #2cc6c6;
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.cowin-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.fail-img {
+  width: 500px;
+}
+.fail-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.charts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+@media screen and (min-width: 768px) {
+  .covin-main-container,
+  .cowin-heading {
+    margin-left: 230px;
+  }
+}

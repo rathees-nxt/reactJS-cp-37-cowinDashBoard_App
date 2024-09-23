@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.age-container {
+  background-color: #1c1c2b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+.heading {
+  color: #cbd5e1;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: roboto;
+}
